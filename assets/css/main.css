@@ -12,7 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Poppins", sans-serif;
 }
@@ -675,7 +677,8 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(13, 66, 255, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%,
+      rgba(13, 66, 255, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -794,6 +797,7 @@ section {
   margin-bottom: 30px;
   color: var(--color-secondary);
   font-size: 15px;
+  text-align: justify;
 }
 
 .services .card:hover .card-img img {
@@ -804,7 +808,8 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)),
+    url("../img/cta-bg.jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1222,6 +1227,7 @@ section {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid rgba(14, 29, 52, 0.15);
+  box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
 }
 
 .team .member img {
@@ -1484,7 +1490,7 @@ section {
   padding: 12px 15px;
 }
 
-.get-a-quote .php-email-form button[type=submit] {
+.get-a-quote .php-email-form button[type="submit"] {
   background: var(--color-primary);
   border: 0;
   padding: 10px 30px;
@@ -1493,7 +1499,7 @@ section {
   border-radius: 4px;
 }
 
-.get-a-quote .php-email-form button[type=submit]:hover {
+.get-a-quote .php-email-form button[type="submit"]:hover {
   background: rgba(13, 66, 255, 0.8);
 }
 
@@ -1608,7 +1614,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
@@ -1617,7 +1623,7 @@ section {
   border-radius: 5px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: rgba(13, 66, 255, 0.8);
 }
 
