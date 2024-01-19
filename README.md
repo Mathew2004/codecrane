@@ -1,4 +1,4 @@
 # setup
 
-Create Database named codecrane
-then import sql file
+*Create Database named codecrane
+*then import codecrane.sql file
