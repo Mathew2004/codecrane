@@ -56,7 +56,7 @@
       </div>
 
       <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-        <img src="assets/img/hero-img.svg" class="img-fluid mb-3 mb-lg-0" alt="" />
+        <img src="assets/img/h4.svg" class="img-fluid mb-2 mb-lg-0" alt="" />
       </div>
     </div>
   </div>
@@ -168,88 +168,15 @@
   </section>
   <!-- End Services Section -->
 
-  <!-- ======= Our Team Section ======= -->
-  <section id="team" class="team pt-0">
-    <div class="container" data-aos="fade-up">
-      <div class="section-header">
-        <span>Our Team</span>
-        <h2>Our Team</h2>
-      </div>
-
-      <div class="row" data-aos="fade-up" data-aos-delay="100">
-        <div class="col-lg-4 col-md-6 d-flex">
-          <div class="member">
-            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
-            <div class="member-content">
-              <h4>Walter White</h4>
-              <span>Web Development</span>
-              <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem.
-                Odio veritatis perspiciatis quaerat qui aut aut aut
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Team Member -->
-
-        <div class="col-lg-4 col-md-6 d-flex">
-          <div class="member">
-            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
-            <div class="member-content">
-              <h4>Sarah Jhinson</h4>
-              <span>Marketing</span>
-              <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas
-                repellendus. In architecto rerum rerum temporibus
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Team Member -->
-
-        <div class="col-lg-4 col-md-6 d-flex">
-          <div class="member">
-            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
-            <div class="member-content">
-              <h4>William Anderson</h4>
-              <span>Content</span>
-              <p>
-                Voluptas necessitatibus occaecati quia. Earum totam
-                consequuntur qui porro et laborum toro des clara
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Team Member -->
-      </div>
-    </div>
-  </section>
-  <!-- End Our Team Section -->
+  
+ 
 
   <!-- ======= projects section ======= -->
   <section id="service" class="services pt-0">
     <div class="container" data-aos="fade-up">
       <div class="section-header">
-        <span>Our Projects</span>
-        <h2>Our Projects</h2>
+        <span>Recent Projects</span>
+        <h2>Recent Projects</h2>
       </div>
 
       <div class="row gy-4">
@@ -266,6 +193,7 @@
               atque quia voluptas quisquam repellendus temporibus
               itaqueofficiis odit
             </p>
+            <br><br>
 
           </div>
         </div>
@@ -284,6 +212,7 @@
               audantium ut et iure incidunt molestiae dolor ipsam ducimus
               occaecati nisi
             </p>
+            <br><br>
           </div>
         </div>
         <!-- End Card Item -->
@@ -294,6 +223,53 @@
   <!-- End projects section -->
 
   <!-- ======= Our Team Section ======= -->
+   <!-- ======= Our Team Section ======= -->
+   <section id="team" class="team pt-0">
+    <div class="container" data-aos="fade-up">
+      <div class="section-header">
+        <span>Our Team</span>
+        <h2>Our Team</h2>
+      </div>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <?php 
+        // Fetch Data from Database
+          include "Admin/includes/dbcon.php";
+         
+          $query = "SELECT * FROM `members`" ;
+          $result = mysqli_query($con, $query);
+
+          while($row = mysqli_fetch_array($result)){ 
+          
+        
+        ?>
+        <div class="col-lg-4 col-md-6 d-flex">
+          <div class="member">
+            <img src="<?php echo $row['image']; ?>" class=""  height="355px" alt="" />
+            <div class="member-content">
+              <h4><?php echo $row['full_name']; ?></h4>
+              <span><?php echo $row['department']; ?></span>
+              <p>
+                Magni qui quod omnis unde et eos fuga et exercitationem.
+                Odio veritatis perspiciatis quaerat qui aut aut aut
+              </p>
+              <div class="social">
+                <a href="<?php echo $row['facebook']; ?>"><i class="bi bi-twitter"></i></a>
+                <a href="<?php echo $row['facebook']; ?>"><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href="<?php echo $row['github']; ?>"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <?php } ?>
+        
+      
+      </div>
+    </div>
+  </section>
+  <!-- End Our Team Section -->
 
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials">
