@@ -1683,7 +1683,7 @@ section {
   transition: 0.6s ease-in;
   color: #fff;
   font-size: 20px;
-  cursor: progress;
+  cursor: pointer;
   padding: 10px 90px;
   
 }
