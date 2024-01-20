@@ -1,16 +1,5 @@
-/**
-* Template Name: Logis
-* Updated: Jan 09 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
-/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap');
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
@@ -291,7 +280,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(14, 29, 52, 0.9);
+  background: rgb(14, 29, 52);
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
@@ -758,7 +747,9 @@ section {
 # Services Section
 --------------------------------------------------------------*/
 .services .card {
-  border: 1px solid rgba(14, 29, 52, 0.15);
+  box-shadow: 2px 17px 42px -25px rgba(46,41,41,0.63);
+-webkit-box-shadow: 2px 17px 42px -25px rgba(46,41,41,0.63);
+-moz-box-shadow: 2px 17px 42px -25px rgba(46,41,41,0.63);
   background: #fff;
   position: relative;
   border-radius: 0;
@@ -794,10 +785,11 @@ section {
 
 .services .card p {
   padding: 0 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: var(--color-secondary);
   font-size: 15px;
   text-align: justify;
+  font-family: 'Poppins',sans-serif;
 }
 
 .services .card:hover .card-img img {
@@ -1640,6 +1632,70 @@ section {
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
+.servies-details-payment{
+  padding: 10px 30px;
+  border: 1px solid #808080a5;
+  margin-bottom: 20px;
+  background-color: #ffffffce;
+  font-family: 'Poppins';
+}
+.servies-details-payment .dollar{
+  font-size: 35px;
+  color: #111;
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+}
+.servies-details-payment .rev-icons{
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  color: #111;
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.servies-details-payment .ser-include{
+  font-size: 15px;
+  color: #111;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  margin: 30px 0px;
+}
+.servies-details-payment .buy-now{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+.servies-details-payment .buy-now a:first-child{
+  text-align: center;
+  text-decoration: none;
+  background-color: #111;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Poppins',sans-serif;
+  padding: 10px 80px;
+  width: 100%;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.servies-details-payment .buy-now a:first-child:hover{
+  transition: 0.6s ease-in;
+  color: #fff;
+  font-size: 20px;
+  cursor: progress;
+  padding: 10px 90px;
+  
+}
+
+
+
+
+
+
+/*
+
+
 .service-details .services-list {
   padding: 10px 30px;
   border: 1px solid #d3dff3;
@@ -1664,6 +1720,8 @@ section {
 .service-details .services-list a:hover {
   border-color: var(--color-primary);
 }
+
+**/
 
 .service-details .services-img {
   margin-bottom: 20px;
@@ -1710,7 +1768,7 @@ section {
   width: 100%;
   min-height: 50vh;
   background-color: var(--color-secondary);
-  background-image: url("../img/hero-bg.png");
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/bg.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
