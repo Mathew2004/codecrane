@@ -145,23 +145,104 @@
           </div>
         </div>
         <!-- End Card Item -->
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="card">
             <div class="card-img">
-              <img src="assets/img/services/PSD to html.png" alt="" class="img-fluid" />
+              <img src="assets/img/services/landingPage.jpg" alt="" class="img-fluid" />
             </div>
             <h3>
-              <a href="service-details.html" class="stretched-link">Figma, PSD, Adobe XD to Website</a>
+              <a href="service-details.html" class="stretched-link">Landing Page Design</a>
             </h3>
-            <p>
-              Asperiores provident dolor accusamus pariatur dolore nam id
-              audantium ut et iure incidunt molestiae dolor ipsam ducimus
-              occaecati nisi
-            </p>
+            <p style="text-align:justify;">
+              Cherish the present, learn from the past, and eagerly embrace the future.
+              Every day is a chance to write a new chapter in your story siamm siyam</p>
+            <p><i class="fa fa-star"></i>(4)</p>
+            <p style="font-size: 20px; color:#111; font-weight:bold; margin-bottom: 20px">From 10$</p>
           </div>
         </div>
         <!-- End Card Item -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="card">
+            <div class="card-img">
+              <img src="assets/img/services/landingPage.jpg" alt="" class="img-fluid" />
+            </div>
+            <h3>
+              <a href="service-details.html" class="stretched-link">Landing Page Design</a>
+            </h3>
+            <p style="text-align:justify;">
+              Cherish the present, learn from the past, and eagerly embrace the future.
+              Every day is a chance to write a new chapter in your story siamm siyam</p>
+            <p><i class="fa fa-star"></i>(4)</p>
+            <p style="font-size: 20px; color:#111; font-weight:bold; margin-bottom: 20px">From 10$</p>
+          </div>
+        </div>
+        <!-- End Card Item -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="card">
+            <div class="card-img">
+              <img src="assets/img/services/landingPage.jpg" alt="" class="img-fluid" />
+            </div>
+            <h3>
+              <a href="service-details.html" class="stretched-link">Landing Page Design</a>
+            </h3>
+            <p style="text-align:justify;">
+              Cherish the present, learn from the past, and eagerly embrace the future.
+              Every day is a chance to write a new chapter in your story siamm siyam</p>
+            <p><i class="fa fa-star"></i>(4)</p>
+            <p style="font-size: 20px; color:#111; font-weight:bold; margin-bottom: 20px">From 10$</p>
+          </div>
+        </div>
+        <!-- End Card Item -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="card">
+            <div class="card-img">
+              <img src="assets/img/services/landingPage.jpg" alt="" class="img-fluid" />
+            </div>
+            <h3>
+              <a href="service-details.html" class="stretched-link">Landing Page Design</a>
+            </h3>
+            <p style="text-align:justify;">
+              Cherish the present, learn from the past, and eagerly embrace the future.
+              Every day is a chance to write a new chapter in your story siamm siyam</p>
+            <p><i class="fa fa-star"></i>(4)</p>
+            <p style="font-size: 20px; color:#111; font-weight:bold; margin-bottom: 20px">From 10$</p>
+          </div>
+        </div>
+        <!-- End Card Item -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="card">
+            <div class="card-img">
+              <img src="assets/img/services/landingPage.jpg" alt="" class="img-fluid" />
+            </div>
+            <h3>
+              <a href="service-details.html" class="stretched-link">Landing Page Design</a>
+            </h3>
+            <p style="text-align:justify;">
+              Cherish the present, learn from the past, and eagerly embrace the future.
+              Every day is a chance to write a new chapter in your story siamm siyam</p>
+            <p><i class="fa fa-star"></i>(4)</p>
+            <p style="font-size: 20px; color:#111; font-weight:bold; margin-bottom: 20px">From 10$</p>
+          </div>
+        </div>
+        <!-- End Card Item -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="card">
+            <div class="card-img">
+              <img src="assets/img/services/landingPage.jpg" alt="" class="img-fluid" />
+            </div>
+            <h3>
+              <a href="service-details.html" class="stretched-link">Landing Page Design</a>
+            </h3>
+            <p style="text-align:justify;">
+              Cherish the present, learn from the past, and eagerly embrace the future.
+              Every day is a chance to write a new chapter in your story siamm siyam</p>
+            <p><i class="fa fa-star"></i>(4)</p>
+            <p style="font-size: 20px; color:#111; font-weight:bold; margin-bottom: 20px">From 10$</p>
+          </div>
+        </div>
+        <!-- End Card Item -->
+
+       
         <!-- End Card Item -->
       </div>
     </div>
